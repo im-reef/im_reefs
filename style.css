@@ -1,11 +1,11 @@
 p {
-	font-family: Raleway, Calibri;
+	font-family: 'Raleway', sans-serif, Calibri;
 	font-size: 1.125rem;
 	line-height: 1.618rem;
 }
 
 h1 {
-	font-family: Raleway, "sans-serif";
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	font-size: 3.5rem;
 }
@@ -21,11 +21,11 @@ h3 {
 }
 
 ul {
-	font-family: Raleway, Calibri;
+	font-family: 'Raleway', sans-serif, Calibri;
 }
 
 header, footer {
-	font-family: Raleway;
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	padding: 2rem; 
 }
@@ -33,6 +33,7 @@ header, footer {
 
 body {
 	margin: 0;
+	background-color: snowWhite;
 }
 
 .wrapper {
@@ -79,6 +80,10 @@ body {
 	border-style: solid;
 	border-width: 0.1875rem;
 	border-radius: 50%;
+}
+
+.image_frame_02 {
+	border-radius: 2rem;
 }
 
 @media (max-width: 85rem){
@@ -156,6 +161,9 @@ body {
 @media (max-width: 35rem){
 	.wrapper {
 		padding: 2.5rem;
+	}
+	.col_02 {
+		text-align: center;
 	}
 }
 
