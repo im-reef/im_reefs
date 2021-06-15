@@ -86,6 +86,11 @@ body {
 	border-radius: 2rem;
 }
 
+@font-face {
+	scr: url(fonts/Raleway-VariableFont_wght.ttf,);
+	font-family: Raleway;
+}
+
 @media (max-width: 85rem){
 	body {
 		padding: 0 2.5rem;
