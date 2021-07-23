@@ -1,5 +1,5 @@
 p {
-	font-family: 'Raleway', sans-serif, Calibri;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.125rem;
 	line-height: 1.618rem;
 }
@@ -21,7 +21,7 @@ h3 {
 }
 
 ul {
-	font-family: 'Raleway', sans-serif, Calibri;
+	font-family: 'Raleway', sans-serif;
 }
 
 header, footer {
@@ -84,11 +84,6 @@ body {
 
 .image_frame_02 {
 	border-radius: 2rem;
-}
-
-@font-face {
-	scr: url(fonts/Raleway-VariableFont_wght.ttf,);
-	font-family: Raleway;
 }
 
 @media (max-width: 85rem){
